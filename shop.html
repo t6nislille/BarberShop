@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Space</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/shop-style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+
+    <!------------------------------------------------------------->
+    <div class="modal fade" id="modal-1" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">American crew daily shampoo for oily hair</h4>
+                </div>
+                <div class="modal-body">
+                    
+                    <form action="shopping_reg.php" method="post">
+
+                        <input type='hidden' name='product' value='American crew daily shampoo for oily hair' />
+                        <input type='hidden' name='price' value='8.95' />
+    
+                        <label for="name">Nimi:</label><br>
+                        <input type="text" id="name" name="name"><br>
+    
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="email" name="email"><br>
+    
+                        <button type="submit" name="send">Send</button><br>
+    
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!------------------------------------------------------------->
+    <div class="modal fade" id="modal-2" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Crema shampoo shower gel with vitamins</h4>
+                </div>
+                <div class="modal-body">
+
+                    <form action="shopping_reg.php" method="post">
+
+                        <input type='hidden' name='product' value='Crema shampoo shower gel with vitamins' />
+                        <input type='hidden' name='price' value='7.95' />
+    
+                        <label for="name">Nimi:</label><br>
+                        <input type="text" id="name" name="name"><br>
+    
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="email" name="email"><br>
+    
+                        <button type="submit" name="send">Send</button><br>
+    
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!------------------------------------------------------------->
+    <div class="modal fade" id="modal-3" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Dove men care extra fresh dry spray</h4>
+                </div>
+                <div class="modal-body">
+
+                    <form action="shopping_reg.php" method="post">
+
+                        <input type='hidden' name='product' value='Dove men care extra fresh dry spray' />
+                        <input type='hidden' name='price' value='8.75' />
+    
+                        <label for="name">Nimi:</label><br>
+                        <input type="text" id="name" name="name"><br>
+    
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="email" name="email"><br>
+    
+                        <button type="submit" name="send">Send</button><br>
+    
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!------------------------------------------------------------->
+    <div class="modal fade" id="modal-4" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Premium Five Butters Neatbraid</h4>
+                </div>
+                <div class="modal-body">
+
+                    <form action="shopping_reg.php" method="post">
+
+                        <input type='hidden' name='product' value='Premium Five Butters Neatbraid' />
+                        <input type='hidden' name='price' value='14.95' />
+    
+                        <label for="name">Nimi:</label><br>
+                        <input type="text" id="name" name="name"><br>
+    
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="email" name="email"><br>
+    
+                        <button type="submit" name="send">Send</button><br>
+    
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!------------------------------------------------------------->
+    <div class="modal fade" id="modal-5" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Ray coconun wheat protein shampoo</h4>
+                </div>
+                <div class="modal-body">
+
+                    <form action="shopping_reg.php" method="post">
+
+                        <input type='hidden' name='product' value='Ray coconun wheat protein shampoo' />
+                        <input type='hidden' name='price' value='19.95' />
+    
+                        <label for="name">Nimi:</label><br>
+                        <input type="text" id="name" name="name"><br>
+    
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="email" name="email"><br>
+    
+                        <button type="submit" name="send">Send</button><br>
+    
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!------------------------------------------------------------->
+    <div class="modal fade" id="modal-6" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">REF black dry shampoo for men</h4>
+                </div>
+                <div class="modal-body">
+
+                    <form action="shopping_reg.php" method="post">
+
+                        <input type='hidden' name='product' value='REF black dry shampoo for men' />
+                        <input type='hidden' name='price' value='14.95' />
+    
+                        <label for="name">Nimi:</label><br>
+                        <input type="text" id="name" name="name"><br>
+    
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="email" name="email"><br>
+    
+                        <button type="submit" name="send">Send</button><br>
+    
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!------------------------------------------------------------->
+    <div class="modal fade" id="modal-7" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Wooden comb with handle</h4>
+                </div>
+                <div class="modal-body">
+
+                    <form action="shopping_reg.php" method="post">
+
+                        <input type='hidden' name='product' value='Wooden comb with handle' />
+                        <input type='hidden' name='price' value='14.50' />
+    
+                        <label for="name">Nimi:</label><br>
+                        <input type="text" id="name" name="name"><br>
+    
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="email" name="email"><br>
+    
+                        <button type="submit" name="send">Send</button><br>
+    
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!------------------------------------------------------------->
+    <div class="modal fade" id="modal-8" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Wooden har comb</h4>
+                </div>
+                <div class="modal-body">
+
+                    <form action="shopping_reg.php" method="post">
+
+                        <input type='hidden' name='product' value='Wooden har comb' />
+                        <input type='hidden' name='price' value='14.25' />
+    
+                        <label for="name">Nimi:</label><br>
+                        <input type="text" id="name" name="name"><br>
+    
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="email" name="email"><br>
+    
+                        <button type="submit" name="send">Send</button><br>
+    
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+    <header class="shop-header">
+        <div class="container container-nav">
+            <div class="site-title">
+                <h1>Barber Space</h1>
+                <p class="catchphrase">Trust your barber</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="barbers.html">Our Barbers</a></li>
+                    <li><a href="shop.html" class="current-page">Shop</a></li>
+                    <li><a href="contacts.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="slider-shop">
+
+
+
+
+
+
+
+        <section class="seller">
+            <div class="section__container">
+
+                <div class="section__header">
+                    <div class="section__title">Welcome to BarberSpace!</div>
+                    <div class="section__title">We have a wide range of haircare products for you</div>
+                    <div class="seller__nav">
+                        <span><i class="ri-arrow-left-s-line"></i></span>
+                        <span><i class="ri-arrow-right-s-line"></i></span>
+                    </div>
+                </div>
+
+                <div class="seller__grid">
+
+                    <div class="seller__card">
+                        <img src="assets/american-crew-daily-shampoo-for-oily-hair.png" alt="seller" />
+                        <div class="seller__card__details">
+                            <p>American crew daily shampoo for oily hair</p>
+                            <p class="price"><span>€8.95</span></p>
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal"
+                                data-target="#modal-1">Buy</button>
+                        </div>
+                    </div>
+
+                    <div class="seller__card">
+                        <img src="assets/black-plastic-bottle-of-crema-men-shampoo-shower-gel-with-vitamin-e-2-in-1-self-confidence.png"
+                            alt="seller" />
+                        <div class="seller__card__details">
+                            <p>Crema shampoo shower gel with vitamins</p>
+                            <p class="price"><span>€7.95</span></p>
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal"
+                                data-target="#modal-2">Buy</button>
+                        </div>
+                    </div>
+
+                    <div class="seller__card">
+                        <img src="assets/dove-men-care-extra-fresh-dry-spray.png" alt="seller" />
+                        <div class="seller__card__details">
+                            <p>Dove men care extra fresh dry spray</p>
+                            <p class="price"><span>€8.75</span></p>
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal"
+                                data-target="#modal-3">Buy</button>
+                        </div>
+                    </div>
+
+                    <div class="seller__card">
+                        <img src="assets/Premium-Five-Butters-Neatbraid.png" alt="seller" />
+                        <div class="seller__card__details">
+                            <p>Premium Five Butters Neatbraid</p>
+                            <p class="price"><span>€14.95</span></p>
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal"
+                                data-target="#modal-4">Buy</button>
+                        </div>
+                    </div>
+
+                    <div class="seller__card">
+                        <img src="assets/ray-coconun-wheat-protein-shampoo.png" alt="seller" />
+                        <div class="seller__card__details">
+                            <p>Ray coconun wheat protein shampoo</p>
+                            <p class="price"><span>€19.95</span></p>
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal"
+                                data-target="#modal-5">Buy</button>
+                        </div>
+                    </div>
+
+                    <div class="seller__card">
+                        <img src="assets/REF-black-dry-shampoo-for-men.png" alt="seller" />
+                        <div class="seller__card__details">
+                            <p>REF black dry shampoo for men</p>
+                            <p class="price"><span>€14.95</span></p>
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal"
+                                data-target="#modal-6">Buy</button>
+                        </div>
+                    </div>
+
+                    <div class="seller__card">
+                        <img src="assets/wooden-comb-with-handle.png" alt="seller" />
+                        <div class="seller__card__details">
+                            <p>Wooden comb with handle</p>
+                            <p class="price"><span>€14.50</span></p>
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal"
+                                data-target="#modal-7">Buy</button>
+                        </div>
+                    </div>
+
+                    <div class="seller__card">
+                        <img src="assets/wooden-har-comb.png" alt="seller" />
+                        <div class="seller__card__details">
+                            <p>Wooden har comb</p>
+                            <p class="price"><span>€14.25</span></p>
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal"
+                                data-target="#modal-8">Buy</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+    <footer class="footer">
+        <h3><span id="demo">&copy;</span><a href="#">Barber Space</a></h3>
+    </footer>
+</body>
+
+</html>
